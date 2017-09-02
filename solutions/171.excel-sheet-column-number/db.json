@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {string} s\n * @return {number}\n */\nvar titleToNumber = function(s) {\n  var sum = 0\n  for(var i =0,len = s.length;i < len;i++){\n    sum += (s.charCodeAt(i) - 64)*(26**(len-i-1))\n  }\n  return sum\n};"}

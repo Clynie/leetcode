@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {number[]} nums\n * @return {string}\n */\nvar optimalDivision = function(nums) {\n  var res = \"\"+nums[0]\n  if(nums.length == 1) return res\n  if(nums.length == 2) return res + \"/\" + nums[1]\n  res += \"/(\"+nums[1]\n  for(var i =2;i < nums.length;i++){\n  \tres += \"/\"+nums[i]\n  } \n  res += \")\"\n  return res\n};"}

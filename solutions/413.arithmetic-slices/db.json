@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {number[]} A\n * @return {number}\n */\nvar numberOfArithmeticSlices = function(A) {\n  var res = 0,cur = 0\n  for(var i = 2;i < A.length;i++) {\n  \tdebugger\n  \tif(A[i] - A[i-1] == A[i-1]-A[i-2]){\n  \t\tcur += 1\n  \t\tres += cur\n  \t}else{\n  \t\tcur = 0\n  \t}\n  }\n  return res\n};"}

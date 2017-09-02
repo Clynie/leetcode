@@ -1,0 +1,1 @@
+{"javascript":"/**\r\n * @param {number} num\r\n * @return {boolean}\r\n */\r\nvar isPowerOfFour = function(num) {\r\n    return (Math.log10(num) / Math.log10(4)) % 1 == 0\r\n};"}

@@ -1,0 +1,1 @@
+{"javascript":"/**\r\n * @param {number} x\r\n * @param {number} y\r\n * @return {number}\r\n */\r\nvar hammingDistance = function(x, y) {\r\n    var z = (x ^ y).toString(2)\r\n\tvar sum = 0\r\n\tfor(var i = 0;i < z.length;i++){\r\n\t\tz[i] == '1'? sum += 1:null\r\n\t}\r\n\treturn sum\r\n};"}

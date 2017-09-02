@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {number} a\n * @param {number} b\n * @return {number}\n */\nvar getSum = function(a, b) {\n\tvar sum = 0\n\twhile(b != 0){\n\t\tdebugger\n\t\tsum = a^b\n\t\tb = (a&b) << 1\n\t\ta = sum\n\t}\n\treturn sum\n};"}

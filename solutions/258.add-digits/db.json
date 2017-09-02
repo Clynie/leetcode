@@ -1,0 +1,1 @@
+{"javascript":"/**\r\n * @param {number} num\r\n * @return {number}\r\n */\r\nvar addDigits = function(num) {\r\n    var digit\r\n    var sum = 0\r\n    while(num >= 1){\r\n        digit = num % 10\r\n        num = (num - digit)/10\r\n        sum += digit\r\n    }\r\n    if(sum >= 10){\r\n        return addDigits(sum)\r\n    }\r\n    return sum\r\n};"}

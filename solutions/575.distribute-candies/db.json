@@ -1,0 +1,1 @@
+{"javascript":"/**\r\n * @param {number[]} candies\r\n * @return {number}\r\n */\r\nvar distributeCandies = function(candies) {\r\n    var result = new Set(candies).size\r\n\treturn Math.min(result,candies.length/2)\r\n};"}

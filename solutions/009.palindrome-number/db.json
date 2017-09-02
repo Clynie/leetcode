@@ -1,0 +1,1 @@
+{"javascript":"/**\r\n * @param {number} x\r\n * @return {boolean}\r\n */\r\nvar isPalindrome = function(x) {\r\n    var a = x\r\n    var b = 0\r\n    while(a > 0){\r\n      var digit = a%10\r\n      b = b*10 + digit\r\n      a = (a - digit)/10\r\n    }\r\n    return b == x\r\n};"}

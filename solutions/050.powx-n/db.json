@@ -1,0 +1,1 @@
+{"javascript":"/**\r\n * @param {number} x\r\n * @param {number} n\r\n * @return {number}\r\n */\r\nvar myPow = function(x, n) {\r\n    if(n == 0){\r\n        return 1\r\n    }\r\n    if(n == 1){\r\n        return x\r\n    }\r\n    if(n < 0){\r\n    \tn = -n\r\n    \tx = 1/x\r\n    }\r\n    return (n%2 == 0) ? myPow(x*x,n/2):x*myPow(x*x,(n-1)/2)\r\n};"}

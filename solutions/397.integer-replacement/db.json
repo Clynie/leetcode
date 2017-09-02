@@ -1,0 +1,1 @@
+{"javascript":"/**\r\n * @param {number} n\r\n * @return {number}\r\n */\r\nvar integerReplacement = function(n) {\r\n   \tvar count = 0\r\n\twhile(n > 1){\r\n\t\tif(n%2 == 0){\r\n\t\t\tn /=2\r\n\t\t}else if((n+1)%4 == 0 && n !=3 ){\r\n\t\t\tn++\r\n\t\t}else{\r\n\t\t\tn--\r\n\t\t}\r\n\t\tcount++\r\n\t}\r\n\treturn count\r\n};"}

@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {number[][]} triangle\n * @return {number}\n */\nvar minimumTotal = function(triangle) {\n  var len = triangle.length\n  var minlen = triangle[len - 1]\n  for(var i = len - 2; i >= 0; i--) {\n    debugger\n    for(var j = 0; j <= i;j++) {\n      minlen[j] = Math.min(minlen[j],minlen[j+1]) + triangle[i][j]\n    }\n  }\n  return minlen[0]\n};"}

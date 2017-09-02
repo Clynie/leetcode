@@ -1,0 +1,1 @@
+{"javascript":"/**\r\n * @param {number} num\r\n * @return {boolean}\r\n */\r\nvar isUgly = function(num) {\r\n    if(num == 1){return true}\r\n\tif(num == 0){return false}\r\n\twhile(num % 2 == 0){num /= 2}\r\n\twhile(num % 3 == 0){num /= 3}\r\n\twhile(num % 5 == 0){num /= 5}\r\n\treturn num == 1\r\n};"}

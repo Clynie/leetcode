@@ -1,0 +1,1 @@
+{"javascript":"/**\r\n * @param {number} n\r\n * @return {boolean}\r\n */\r\nvar isPowerOfTwo = function(n) {\r\n    return n > 0 && ((n & (n - 1)) == 0 )\r\n};"}

@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {number[]} nums\n * @return {number}\n */\nvar maxSubArray = function(nums) {\n  var result = nums[0]\n  var temp = nums[0]\n  for(var i=1,len = nums.length; i<len; i++){\n    temp = Math.max(nums[i], nums[i]+temp);\n    result = Math.max(result,temp);\n  }\n  return result\n};"}

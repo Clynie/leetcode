@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar findDuplicates = function(nums) {\n  nums.sort((a,b) => a-b)\n  var res = []\n  for(var i = 0;i < nums.length;i++){\n\t  if(nums[i] == nums[i+1]){\n\t    res.push(nums[i])\n\t    i++\n\t  }\n\t}\n\treturn res\n};"}

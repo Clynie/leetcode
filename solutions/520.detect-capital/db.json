@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {string} word\n * @return {boolean}\n */\nvar detectCapitalUse = function(word) {\n    return /^[A-Z]+$|^[a-z]+$|^[A-Z][a-z]+$/.test(word)\n};"}

@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {string} s\n * @return {string}\n */\nvar reverseString = function(s) {\n    return Array.from(s).reverse().join('')\n};"}

@@ -1,0 +1,1 @@
+{"javascript":"/**\r\n * @param {number[]} nums\r\n * @return {number}\r\n */\r\nvar minMoves = function(nums) {\r\n    var min = Math.min(...nums)\r\n\tvar count = 0\r\n\tfor(var i = 0;i < nums.length;i++){\r\n\t\tcount += nums[i] - min\r\n\t}\r\n\treturn count\r\n};"}

@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {number[][]} people\n * @return {number[][]}\n */\nvar reconstructQueue = function(people) {\n\tvar res = []\n\tpeople.sort(function(a,b){\n\t\tif(b[0]==a[0]){\n\t\t\treturn a[1] - b[1]\n\t\t}else{\n\t\t\treturn b[0] - a[0]\n\t\t}\n\t})\n\tfor(var p of people){\n\t\tres.splice(p[1],0,p)\n\t}\n\treturn res\n};"}

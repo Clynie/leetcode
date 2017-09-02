@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {number[]} nums\n * @return {number}\n */\nvar majorityElement = function(nums) {\n  nums.sort((a,b) => b-a)\n  for(var i = 0,len = nums.length;i < len;i++){\n    debugger\n    if((nums.lastIndexOf(nums[i])-nums.indexOf(nums[i])) >= (len/2-1) ){\n      return nums[i]\n      break\n    }\n  }\n};"}

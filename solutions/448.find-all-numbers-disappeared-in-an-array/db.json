@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar findDisappearedNumbers = function(nums) {\n  var res =[]\n  var n = nums.length\n  for(var i = 0;i < n;i++){\n  \tnums[(nums[i] -1)% n] += n\n  }\n  for(var j = 0;j < n;j++){\n  \tif(nums[j] <= n) res.push(j+1)\n  }\n\treturn res\n};"}

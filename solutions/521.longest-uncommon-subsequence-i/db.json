@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {string} a\n * @param {string} b\n * @return {number}\n */\nvar findLUSlength = function(a, b) {\n  return a == b? -1:(a.length > b.length?a.length:b.length)\n};"}

@@ -1,0 +1,1 @@
+{"javascript":"/**\r\n * @param {number} x\r\n * @return {number}\r\n */\r\nvar mySqrt = function(x) {\r\n  var r = x\r\n  while(r*r > x){\r\n  \tdebugger\r\n    r = parseInt((r+x/r)/2)\r\n  }\r\n  return r\r\n};"}
