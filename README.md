@@ -10,7 +10,7 @@
 <p align="center">
     <b>Language: javascript</b>
     <br>
-    <b>Last updated: 2017-09-03</b>
+    <b>Last updated: 2017-09-04</b>
     <br><br>
 </p>
 <!--请保留下面这行信息，让更多用户了解到这个小爬虫，衷心感谢您的支持-->
