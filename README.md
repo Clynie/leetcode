@@ -1,7 +1,7 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/Ma63d/leetcode-spider/master/img/site-logo.png"></p>
 <p align="center">
-    <img src="https://img.shields.io/badge/Solved/Total(Locked)-95/593(113)-green.svg?style=flat-square" alt="">
-    <img src="https://img.shields.io/badge/Hard-7-blue.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Solved/Total(Locked)-96/593(113)-green.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Hard-8-blue.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Medium-32-blue.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Easy-56-blue.svg?style=flat-square" alt="">
 </p>
@@ -31,6 +31,7 @@
 |066|[plus-one](https://leetcode.com/problems/plus-one/)| [javascript](.&#x2F;solutions&#x2F;066.plus-one&#x2F;plus-one.js)|Easy|38.67%||
 |067|[add-binary](https://leetcode.com/problems/add-binary/)| [javascript](.&#x2F;solutions&#x2F;067.add-binary&#x2F;add-binary.js)|Easy|32.52%||
 |069|[sqrtx](https://leetcode.com/problems/sqrtx/)| [javascript](.&#x2F;solutions&#x2F;069.sqrtx&#x2F;sqrtx.js)|Easy|27.86%||
+|072|[edit-distance](https://leetcode.com/problems/edit-distance/)| [javascript](.&#x2F;solutions&#x2F;072.edit-distance&#x2F;edit-distance.js)|Hard|31.75%||
 |093|[restore-ip-addresses](https://leetcode.com/problems/restore-ip-addresses/)| [javascript](.&#x2F;solutions&#x2F;093.restore-ip-addresses&#x2F;restore-ip-addresses.js)|Medium|27.40%||
 |094|[binary-tree-inorder-traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)| [javascript](.&#x2F;solutions&#x2F;094.binary-tree-inorder-traversal&#x2F;binary-tree-inorder-traversal.js)|Medium|46.77%||
 |098|[validate-binary-search-tree](https://leetcode.com/problems/validate-binary-search-tree/)| [javascript](.&#x2F;solutions&#x2F;098.validate-binary-search-tree&#x2F;validate-binary-search-tree.js)|Medium|23.37%||
