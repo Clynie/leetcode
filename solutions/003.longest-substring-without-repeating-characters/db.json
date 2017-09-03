@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {string} s\n * @return {number}\n */\nvar lengthOfLongestSubstring = function(s) {\n\tdebugger\n    var n = s.length,res = 0\n    var map = {}\n    for(var i=0,j=0;j<n;j++){\n    \tif(map[s[j]] !== undefined){\n    \t\ti = Math.max(map[s[j]]+1,i)\n    \t}\n    \tres = Math.max(res,j-i+1)\n    \tmap[s[j]] = j\n    }\n    return res\n};"}

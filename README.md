@@ -1,8 +1,8 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/Ma63d/leetcode-spider/master/img/site-logo.png"></p>
 <p align="center">
-    <img src="https://img.shields.io/badge/Solved/Total(Locked)-97/593(113)-green.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Solved/Total(Locked)-98/593(113)-green.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Hard-8-blue.svg?style=flat-square" alt="">
-    <img src="https://img.shields.io/badge/Medium-32-blue.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Medium-33-blue.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Easy-57-blue.svg?style=flat-square" alt="">
 </p>
 <h3 align="center">My leetcode solutions</h3>
@@ -20,6 +20,7 @@
 |:--:|:-----:|:---------:|:----:|:----:|:----:|
 |001|[two-sum](https://leetcode.com/problems/two-sum/)| [javascript](.&#x2F;solutions&#x2F;001.two-sum&#x2F;two-sum.js)|Easy|34.79%||
 |002|[add-two-numbers](https://leetcode.com/problems/add-two-numbers/)| [javascript](.&#x2F;solutions&#x2F;002.add-two-numbers&#x2F;add-two-numbers.js)|Medium|27.79%||
+|003|[longest-substring-without-repeating-characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [javascript](.&#x2F;solutions&#x2F;003.longest-substring-without-repeating-characters&#x2F;longest-substring-without-repeating-characters.js)|Medium|24.36%||
 |007|[reverse-integer](https://leetcode.com/problems/reverse-integer/)| [javascript](.&#x2F;solutions&#x2F;007.reverse-integer&#x2F;reverse-integer.js)|Easy|24.42%||
 |009|[palindrome-number](https://leetcode.com/problems/palindrome-number/)| [javascript](.&#x2F;solutions&#x2F;009.palindrome-number&#x2F;palindrome-number.js)|Easy|35.36%||
 |028|[implement-strstr](https://leetcode.com/problems/implement-strstr/)| [javascript](.&#x2F;solutions&#x2F;028.implement-strstr&#x2F;implement-strstr.js)|Easy|28.18%||
