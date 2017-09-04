@@ -34,7 +34,7 @@
 ```
 
 ## 3.动态规划求解
-![pseudocode](./img1.png)
+![pseudocode](https://github.com/LuciferChiu/leetcode/blob/master/solutions/072.edit-distance/img1.png?raw=true)
 
 * 动态规划的核心就是求解这个状态时，是根据上个状态确定的
 * 求解dp[i][j]时，有三种情况如上图所示
