@@ -8,7 +8,7 @@
 
 第一反应感觉怎么这么简单，合并俩数组然后返回中间值就好了。直到看到O(log(m+n))，果然我还是太天真。看到log(m+n),直接往二分这个思路走肯定没错。
 
-![图例](https://github.com/LuciferChiu/leetcode/blob/master/solutions/004.median-of-two-sorted-arrays/img1.png?raw=true)
+![图例](https://github.com/LuciferChiu/leetcode/blob/master/solutions/004.median-of-two-sorted-arrays/img.png?raw=true)
 
 * 如上图所示，A数组和B数组要找到第k小的数，假设k为13
 * A找到第6小的数a，B找到第7小的数b
