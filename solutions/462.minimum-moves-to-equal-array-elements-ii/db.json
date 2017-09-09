@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {number[]} nums\n * @return {number}\n */\nvar minMoves2 = function(nums) {\n    nums.sort((a,b) => a-b)\n    var res = 0,\n    mid = nums[parseInt(nums.length/2)]\n    for(var num of nums){\n        res += Math.abs(num - mid)\n    }\n    return res\n};"}
